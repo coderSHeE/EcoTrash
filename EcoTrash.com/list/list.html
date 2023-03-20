@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background: #f8f8f8;
+      width:auto;
+      height:auto;
+    }
+    
+    .slider-wrapper {
+      width:100%;
+      overflow: hidden;
+      padding: 25px 20px 20px;
+      white-space: wrap;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      padding-bottom: 5px;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    p2 {
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .prev {
+      color: black;
+      position: absolute;
+      top: 45%;
+      left: -10px;
+      font-size: 1.5em;
+
+      
+    }
+
+    .prev :hover{
+        cursor: pointer;
+        color: black;
+    }
+
+    .next {
+      color: black;
+      position: absolute;
+      top: 45%;
+      right: 10px;
+      font-size: 1.5em;
+
+      
+    }
+
+ .next :hover{
+
+    cursor: pointer;
+        color: black;
+
+ }
+
+    .fact {
+      vertical-align: top;
+      display: inline-block;
+      height: auto;
+      width: 200px;
+      background-color: white;
+      padding: 20px;
+      margin: 0px 25px 0px 5px;
+      border-radius: 15px;
+      box-shadow:
+        0 1.6px 3.6px rgba(0, 0, 0, 0.01),
+        0 4.5px 10px rgba(0, 0, 0, 0.015),
+        0 10.9px 24.1px rgba(0, 0, 0, 0.02),
+        0 36px 80px rgba(0, 0, 0, 0.03);
+    }
+
+    button {
+  background-color: green;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1{
+    color: #523A28;
+    font-family: 'Domine', serif;
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  
+}
+
+  </style>
+</head>
+
+<body>
+   <!---
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#">
+            <h1 class="logo">Eco<span style="color:#006400;">Trash</h1>
+          </a>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="navbar-top">
+              <a href="#" class="logo">YourWorkstation</a>
+    
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#about" class="navbar-link" data-navbar-link>Why EcoTrash</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+              </li>
+    
+             <<li class="navbar-item">
+                <a href="#features" class="navbar-link" data-navbar-link>Why EcoTrash</a>
+              </li>-->
+    
+             <!-- <li class="navbar-item">
+                <a href="#blog" class="navbar-link" data-navbar-link>How It Works </a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link" data-navbar-link>Community</a>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+          <a href="https://forms.gle/gA6WgzMFK2ZSPg9e6" target="_blank" class="btn">
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+    
+            <span >Book Your Schedule </span>
+          </a>
+    
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+        </div>
+      </header>
+    
+    -->
+
+
+
+
+
+
+
+
+
+  <div class="slider-wrapper">
+    <h1 style="text-align: center; "><a href="/index.html" ><span style="color: royalblue;">Eco</span><span style="color: #003200;">Trash</span></a></h1>
+    <h1 style="text-align: center;">Scrap Paper List
+    </h1><br>
+    <div class="slider">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+
+          <div class="slider responsive">
+            <div class="fact">
+              <img src="/images/books and paper.jpg" alt="" />
+              <h4>Books/Copy</h4>
+              <p2 style="text-align: center;">Price: ₹15.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+<div class="fact">
+              <img src="/images/newspaper.jpg" alt="" />
+              <h4>Newspaper</h4>
+              <p2 style="text-align: center;">Price: ₹21.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+            <div class="fact">
+              <img src="/images/gatta.jpg" alt="" />
+              <h4>Gatta/Corrugation</h4>
+              <p2 style="text-align: center;">Price: ₹12.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/magzine.jpg" alt="" />
+              <h4>Magazines</h4>
+              <p2 style="text-align: center;">Price: ₹15.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/millboard.jpg" alt="" />
+              <h4>Mill Board</h4>
+              <p2 style="text-align: center;">Price: ₹1.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+           
+          </div>
+
+          <div class="prev">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          </div>
+          <div class="next">
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--- new card -->
+
+
+  <div class="slider-wrapper" >
+
+    <h1 style="text-align: center;">Scrap Plastic List
+    </h1><br>
+    <div class="slider">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+
+          <div class="slider responsive" style="align-items: center;">
+            <div class="fact">
+              <img src="/images/plastic.jpg" alt="" />
+              <h4>Plastic</h4>
+              <p2 style="text-align: center;">Price: ₹12.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+
+  </div>
+  </div>
+
+<!---new card 3-->
+
+
+<div class="slider-wrapper">
+    <h1 style="text-align: center;">Scrap Metal-Others List
+    </h1><br>
+    <div class="slider">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+
+          <div class="slider responsive">
+            <div class="fact">
+              <img src="/images/books and paper.jpg" alt="" />
+              <h4>Aluminium</h4>
+              <p2 style="text-align: center;">Price: ₹130.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+<div class="fact">
+              <img src="/images/newspaper.jpg" alt="" />
+              <h4>Inveter</h4>
+              <p2 style="text-align: center;">Price: ₹55.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+            <div class="fact">
+              <img src="/images/gatta.jpg" alt="" />
+              <h4>Motor</h4>
+              <p2 style="text-align: center;">Price: ₹45.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/magzine.jpg" alt="" />
+              <h4>Brass</h4>
+              <p2 style="text-align: center;">Price: ₹350.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/millboard.jpg" alt="" />
+              <h4>Steel Scrap</h4>
+              <p2 style="text-align: center;">Price: ₹40.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+           
+          </div>
+
+
+          <div class="prev">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          </div>
+          <div class="next">
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-----new card 4 ---->
+
+
+  
+  <div class="slider-wrapper">
+    <h1 style="text-align: center;">Electronic Items
+    </h1><br>
+    <div class="slider">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+
+          <div class="slider responsive">
+            <div class="fact">
+              <img src="/images/books and paper.jpg" alt="" />
+              <h4>Washing Machine per price</h4>
+              <p2 style="text-align: center;">Price: ₹750.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+          <div class="fact">
+              <img src="/images/newspaper.jpg" alt="" />
+              <h4>AC 1.5tn PP Copper Wiring</h4>
+              <p2 style="text-align: center;">Price: ₹3500.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+            <div class="fact">
+              <img src="/images/gatta.jpg" alt="" />
+              <h4>AC 1tn PP Copper Wiring</h4>
+              <p2 style="text-align: center;">Price: ₹2700.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/magzine.jpg" alt="" />
+              <h4>AC 2tn PP Copper Wiring</h4>
+              <p2 style="text-align: center;">Price: ₹5000.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/millboard.jpg" alt="" />
+              <h4>Refregerator per piece</h4>
+              <p2 style="text-align: center;">Price: ₹900.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+           
+          </div>
+
+          <div class="prev">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          </div>
+          <div class="next">
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--new card 5-->
+
+
+  
+  <div class="slider-wrapper">
+    <h1 style="text-align: center;">Iron Items
+    </h1><br>
+    <div class="slider">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+
+          <div class="slider responsive">
+            <div class="fact">
+              <img src="/images/books and paper.jpg" alt="" />
+              <h4>Iron</h4>
+              <p2 style="text-align: center;">Price: ₹30.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+<div class="fact">
+              <img src="/images/newspaper.jpg" alt="" />
+              <h4>Tin/Light Iron</h4>
+              <p2 style="text-align: center;">Price: ₹16.00/kg<br>
+               <button type="button">PickUp Request</button>
+              </p2>
+            </div>
+
+            <div class="fact">
+              <img src="/images/gatta.jpg" alt="" />
+              <h4>Bike per piece</h4>
+              <p2 style="text-align: center;">Price: ₹2500.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+            <div class="fact">
+              <img src="/images/magzine.jpg" alt="" />
+              <h4>Scooter per piece</h4>
+              <p2 style="text-align: center;">Price: ₹2300.00/kg<br>
+                <button type="button">PickUp Request</button>
+               </p2>            </div>
+
+           
+
+           
+          </div>
+
+          <div class="prev">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          </div>
+          <div class="next">
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+  <script src="./list.js"></script>
+</body>
+
+</html>
